@@ -8,7 +8,7 @@ namespace Testing.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger,IProductRepository p)
         {
             _logger = logger;
         }

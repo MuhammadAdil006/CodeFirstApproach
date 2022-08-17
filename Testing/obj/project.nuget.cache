@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B/I20uqehL/dh26JmkOzIhxPPE50AWHOvzDwyE8qbo4A9/M3yzdwI2x5g7DNUWbVJCn/xfAFo0IwoTykwbvP0g==",
+  "dgSpecHash": "L2Gl5WHwTRB7wpPPinB1IU3CKoK7Idqw6IO/Pz63MvVc0OWDLlCJCz8rAKn1fR+WocsYlF+lfvDwY86dJs92dQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\grengo\\source\\repos\\Testing\\Testing\\Testing.csproj",
+  "projectFilePath": "C:\\Users\\grengo\\source\\repos\\testing\\Testing\\Testing.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\grengo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\grengo\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\grengo\\source\\repos\\Testing\\Testing\\Testing.csproj": {}
+    "C:\\Users\\grengo\\source\\repos\\testing\\Testing\\Testing.csproj": {}
   },
   "projects": {
-    "C:\\Users\\grengo\\source\\repos\\Testing\\Testing\\Testing.csproj": {
+    "C:\\Users\\grengo\\source\\repos\\testing\\Testing\\Testing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\grengo\\source\\repos\\Testing\\Testing\\Testing.csproj",
+        "projectUniqueName": "C:\\Users\\grengo\\source\\repos\\testing\\Testing\\Testing.csproj",
         "projectName": "Testing",
-        "projectPath": "C:\\Users\\grengo\\source\\repos\\Testing\\Testing\\Testing.csproj",
+        "projectPath": "C:\\Users\\grengo\\source\\repos\\testing\\Testing\\Testing.csproj",
         "packagesPath": "C:\\Users\\grengo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\grengo\\source\\repos\\Testing\\Testing\\obj\\",
+        "outputPath": "C:\\Users\\grengo\\source\\repos\\testing\\Testing\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\grengo\\AppData\\Roaming\\NuGet\\NuGet.Config",
