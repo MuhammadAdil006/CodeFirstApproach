@@ -17,3 +17,6 @@ adding new column to table
 1.adding property to that class
 2.dotnet ef migrations AddedColumnToPrice
 3.dotnet ef database update
+
+
+and studied dependancy injection and file uloading
