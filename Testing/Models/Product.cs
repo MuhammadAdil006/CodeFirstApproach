@@ -8,5 +8,8 @@ namespace Testing.Models
         public int Id { get; set; }
         public string Name { get; set; } = null!;
         public string Details { get; set; } = null!;
+        //adding new column to the table
+        public int Price { get; set; }
+
     }
 }

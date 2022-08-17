@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Testing.Models;
 
@@ -10,9 +11,10 @@ using Testing.Models;
 namespace Testing.Migrations
 {
     [DbContext(typeof(NewDbContext))]
-    partial class NewDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220817053742_ProductPriceColumnAdded")]
+    partial class ProductPriceColumnAdded
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
