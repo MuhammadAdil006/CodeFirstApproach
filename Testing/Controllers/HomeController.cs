@@ -1,21 +1,26 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using Testing.Models;
+using Testing.Models.Interfaces;
 
 namespace Testing.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IEmployeeRepository empRepo;
 
-        public HomeController(ILogger<HomeController> logger,IProductRepository p)
+        //jb hum code run kre ge to controller ke andr 1 object inject hoga
+        public HomeController(ILogger<HomeController> logger,IEmployeeRepository emp)
         {
             _logger = logger;
+            empRepo = emp;
         }
+
 
         public IActionResult Index()
         {
-            return View();
+            return View(empRepo.GetALlEmployee());
         }
 
         public IActionResult Privacy()

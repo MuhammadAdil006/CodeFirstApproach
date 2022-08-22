@@ -1870,11 +1870,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\grengo\\source\\repos\\Testing\\Testing\\Testing.csproj",
+      "projectUniqueName": "C:\\Users\\grengo\\source\\repos\\testing\\Testing\\Testing.csproj",
       "projectName": "Testing",
-      "projectPath": "C:\\Users\\grengo\\source\\repos\\Testing\\Testing\\Testing.csproj",
+      "projectPath": "C:\\Users\\grengo\\source\\repos\\testing\\Testing\\Testing.csproj",
       "packagesPath": "C:\\Users\\grengo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\grengo\\source\\repos\\Testing\\Testing\\obj\\",
+      "outputPath": "C:\\Users\\grengo\\source\\repos\\testing\\Testing\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\grengo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1936,7 +1936,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }

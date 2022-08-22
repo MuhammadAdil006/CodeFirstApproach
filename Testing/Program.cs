@@ -1,8 +1,12 @@
+using Testing.Models;
+using Testing.Models.Repository;
+
+using Testing.Models.Interfaces;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddSingleton<IEmployeeRepository, EmployeeRepsitory>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
